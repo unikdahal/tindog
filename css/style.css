@@ -1,0 +1,164 @@
+  
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+p {
+  color: #8f8f8f;
+}
+
+/* containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+/* sections */
+.colored-section {
+  /* background-color: #ff4c68; */
+  background-color: #d84c73;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+
+/* headings */
+.big-heading {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.img-r {
+  transform: rotate(25deg);
+  /* margin: 50px; */
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+/* features section */
+#features {
+  position: relative;
+ }
+ .feature-title {
+   font-size: 1.5rem;
+ }
+.red-icon {
+  color: #f59aa3;
+  font-size: 4rem;
+  margin: 1rem auto;
+}
+.red-icon:hover {
+  color: #ff4c68;
+}
+.p-features {
+  color: #8f8f8f;
+}
+.col-features {
+  padding: 5%;
+}
+
+/* Testimonial section ef8172 */
+#testimonials {
+  background-color: #f59aa3;
+}
+.testimonial-txt {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press section */
+#press {
+  background-color: #f59aa3;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.price-txt {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* zmiana właściwości górnego panelu w przypadku smartfona */
+@media (max-width:991px) {
+  .img-r {
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* Section CTA */
+.final-cta {
+  font-size: 2.5rem;
+}
+
+/* Section Footer */
+/* download buttons - footer */
+.download-button-footer {
+  margin: 3% 1% 3%;
+}
+.footer-ic {
+  padding: 10px;
+}
+.footer-ic:hover {
+  color: #8f8f8f;
+}
+.copyright {
+   color: #8f8f8f;
+   padding: 10px 0;
+}
